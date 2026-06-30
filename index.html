@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,29 @@
 </head>
 
 <body>
-
     <header>
+        <h1>Tempo Certo</h1>
 
+        <p>Consulte a previsão do tempo da sua cidade de forma rápida e prática.</p>
+
+        <button id="btnClima">Consultar Clima</button>
     </header>
 
     <main>
 
-    </main>
+        <section class="busca" id="busca">
+            <h2>Descubra o clima da sua cidade</h2>
 
+            <input type="text" id="cidadeInput" placeholder="Digite o nome da cidade">
+
+            <button id="btnBuscar">Buscar clima</button>
+        </section>
+
+        <section class="resultado" id="resultado">
+            <h3>Resultado aparecerá aqui</h3>
+        </section>
+
+    </main>
     <footer>
 
     </footer>
@@ -25,4 +40,5 @@
     <script src="js/script.js"></script>
 
 </body>
+
 </html>

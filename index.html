@@ -4,36 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tempo Certo</title>
 
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <header>
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="icone-clima">
+            ☀️
+        </div>
+
         <h1>Tempo Certo</h1>
 
-        <p>Consulte a previsão do tempo da sua cidade de forma rápida e prática.</p>
+        <p>
+            Consulte a previsão do tempo da sua cidade de forma rápida,
+            prática e gratuita.
+        </p>
 
-        <button id="btnClima">Consultar Clima</button>
+        <button id="btnClima">
+            🌤 Consultar Clima
+        </button>
+
     </header>
 
+    <!-- CONTEÚDO -->
     <main>
 
         <section class="busca" id="busca">
-            <h2>Descubra o clima da sua cidade</h2>
 
-            <input type="text" id="cidadeInput" placeholder="Digite o nome da cidade">
+            <h2>Descubra o clima</h2>
 
-            <button id="btnBuscar">Buscar clima</button>
+            <input
+                type="text"
+                id="cidadeInput"
+                placeholder="Digite o nome da cidade">
+
+            <button id="btnBuscar">
+                Buscar clima
+            </button>
+
         </section>
 
         <section class="resultado" id="resultado">
-            <h3>Resultado aparecerá aqui</h3>
+
+            <h3>🌦 Resultado aparecerá aqui</h3>
+
         </section>
 
     </main>
+
+    <!-- RODAPÉ -->
     <footer>
+
+        <p>© 2026 - Tempo Certo | Desenvolvido por Ingrid Rodrigues</p>
 
     </footer>
 
